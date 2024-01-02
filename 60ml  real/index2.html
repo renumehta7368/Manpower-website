@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+       
+    <title>
+        CAREER
+    </title>
+   
+ 
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: Verdana;
+            text-align: center;
+            font-weight: 500;
+        } 
+        h2{
+            color:#8d36c7; 
+        }
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 0 30px 50px#8d36c7;
+        }
+        .form-control input {
+            text-align: left;
+            margin-bottom: 25px;   
+        }
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+           font-style:normal ;
+           font-size: 16px;
+          
+          
+           
+        }
+  
+       
+        .form-control input
+       
+         {
+            border: 2px solid #8d36c7;
+            border-radius: 12px;
+           font-weight: 400;
+            padding: 10px;
+            display: block;
+            width: 85%;
+        }
+ 
+        
+        button and Checkbox */
+        .input[type="radio"],
+        .input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+       
+        button {
+           
+            border: 3px solid #0d0d0d;
+            background-color: #0d0d0d;
+            color: #fff;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            box-shadow: 0 30px 50px#8d36c7;
+        }
+         li a{
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+}
+li a:hover{
+    color: #56ec3f;
+    transform: translateY(-5px);
+}
+
+    </style>
+</head>
+  
+<body>
+    <h3>click here  to Download &#x1F447 Agreement form</h3>
+    <li><a href="Index3.html">Download</a></li>
+   
+
+    <h2> Registration Form</h2>
+    <form name="submit-to-google-sheet">
+  <div class="form-control">
+        <label>Name</label>
+        <input type="text" name="Name" id="name" placeholder="Enter Your Name" autocomplete="on" required/> 
+
+        <label>Profession</label>
+        <select type="text" value="" name="Profession">
+            <option>Bartender	</option>
+            <option>Waiter	</option>
+            <option>Flair Bartender	</option>
+            <option>Butler	</option></select>
+        
+</br>
+</br>
+    <label>Gender</label>
+        <select type="text" value="" name="Gender">
+            <option>Male	</option>
+            <option>Female	</option>     
+    </select>
+</br>
+</br>
+</br>
+</br>
+
+            <label>Date of Birth </label>
+            <input id="txtDOB" type="date" placeholder="Date Of Birth" name="DOB" minlength="10" autocomplete="on" required/>
+  <label>Email</label>
+        <input type="email" name="Email" id="name" placeholder="Enter Your Email" autocomplete="on" required/>
+        <label>contact No</label>
+        <input type="text" name="Contact no"  maxlength="10" minlength="10" id="name" placeholder="Enter Your Number" autocomplete="on" required/>
+       
+        <label>Bank Account No</label>
+        <input type="text" name="Bank Account No" id="name" placeholder="Enter Account no" autocomplete="on" required/>
+         
+        <label>IFSC number</label>
+        <input type="text" name="IFSC Number" id="txtIFSC"  placeholder="Enter IFSC" onclick= "validation()" required/>
+        <label>Select bank name</label>
+        <select type="text" value="" name="Bank Name">
+            <option>Bank of Baroda	</option>
+            <option>Bank of India	</option>
+            <option>Bank of Maharashtra	</option>
+            <option>Canara Bank	</option>
+            <option>Central Bank of India</option>	
+            <option>Indian Bank	</option>
+            <option>Indian Overseas Bank</option>	
+            <option>Punjab & Sind Bank	</option>
+            <option>Punjab National Bank</option>	
+            <option>State Bank of India	</option>
+            <option>UCO Bank	</option>
+            <option>  Union Bank of India	</option>
+            <option>Axis Bank Ltd.	</option>
+            <option>  Bandhan Bank Ltd.	</option>
+                    <option>CSB Bank Ltd.	</option>
+                    <option>City Union Bank Ltd.	</option>
+                	<option>DCB Bank Ltd.	</option>
+                    <option> Dhanlaxmi Bank Ltd.	</option>
+                    <option> Federal Bank Ltd.	</option>
+                    <option>HDFC Bank Ltd	</option>
+                    <option>ICICI Bank Ltd.	</option>
+                    <option>Induslnd Bank Ltd	</option>
+                    <option>IDFC First Bank Ltd.	</option>
+                    <option>Jammu & Kashmir Bank Ltd.	</option>
+                    <option>Karnataka Bank Ltd.	</option>
+                    <option>Karur Vysya Bank Ltd.	</option>
+                    <option>Kotak Mahindra Bank Ltd	</option>
+                	<option>Nainital Bank Ltd.	</option>
+                    <option>RBL Bank Ltd.	</option>
+                	<option>South Indian Bank Ltd.	</option>
+                	<option>Tamilnad Mercantile Bank Ltd.	</option>
+                    <option>YES Bank Ltd.	</option>
+                	<option>IDBI Bank Ltd.</option>
+            
+        </select>
+    </br>
+</br>
+       
+        <label>Aadhar number</label>
+        <input type="text" name="Aadhar number" id="txtAadhar"  placeholder="Enter Aadhar number" maxlength="12"  minlength="12"  onclick= "validation()" required/>
+        <label>PAN number</label>
+        <input type="text" name="PAN number" id="txtPANCard"   placeholder="Enter Pan Number" onclick = "validation()"  required/>
+        <label>PF number</label>
+        <input type="text" name="PF number" placeholder="Enter PF Number">
+        <button type="submit" value="submit">
+            Submit
+        </button>
+        <span id="success"></span> 
+    </div>
+    </form>
+   
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5dqKQWi5VApqXymOHOh1WC0xNz9Xp_7qiPvVF8LbzfqkdtwyzL6F-xNNAYGxO_h-hRg/exec'
+        const form = document.forms['submit-to-google-sheet']
+         const success =document.getElementById('success');
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         
+    
+            .then(response => {
+               success.innerHTML="Thank you for participating ";
+               setTimeout(function(){
+                alert('Submited')
+                alert("Thank you for participating &#128155");
+               },500)
+               form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+       
+       
+      </script>
+    
+</body>
+
+  
+</html>
